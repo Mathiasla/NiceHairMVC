@@ -32,7 +32,21 @@ namespace NiceHairMVC.Controllers
         {
             return View();
         }
-
+        [Route("/OmOs")]
+        public IActionResult About()
+        {
+            return View();
+        }
+        [Route("/Kontakt")]
+        public IActionResult Contact()
+        {
+            return View();
+        }
+        [Route("/Ansatte")]
+        public IActionResult Employees()
+        {
+            return View();
+        }
         public IList<Services> serviceList = new List<Services>{
                 new Services() { ServiceId = 1, ServiceTitle = "Herreklip", ServicePrice = 18 } ,
                 new Services() { ServiceId = 2, ServiceTitle = "Dameklip", ServicePrice = 18 } ,
