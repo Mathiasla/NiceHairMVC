@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiceHairMVC", "NiceHairMVC.csproj", "{E420B037-B6C7-4F8E-92E3-F2B7D89A5E1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E420B037-B6C7-4F8E-92E3-F2B7D89A5E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E420B037-B6C7-4F8E-92E3-F2B7D89A5E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E420B037-B6C7-4F8E-92E3-F2B7D89A5E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E420B037-B6C7-4F8E-92E3-F2B7D89A5E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0879BDB1-8B00-4CF3-9985-841658A06275}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿@model IEnumerable<NiceHairMVC.Models.Services>
+@{
+    ViewData["Title"] = "Services";
+
+}
+
+<h1>Vælg type klipning du vil have!</h1>
+
+
+<h2>Herre klipning</h2>
+<h2>Dame klipning</h2>
+<h2>Børne klipning</h2>
+
+<table class="table">
+    <tr>
+        @Html.DisplayNameFor(Model => Model.ServiceTitle)
+    </tr>
+    <tr>
+        @Html.DisplayNameFor(Model => Model.ServicePrice)
+    </tr>
+</table>
